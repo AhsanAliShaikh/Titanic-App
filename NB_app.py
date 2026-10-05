@@ -10,7 +10,7 @@ st.set_page_config(
 )
 
 # Model load
-model = joblib.load("titanic_model.joblib")
+model = joblib.load("NB_titanic_model.joblib")
 
 # Title
 st.title("🚢 Titanic Survival Predictor")
